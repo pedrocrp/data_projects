@@ -42,9 +42,12 @@ class FeatureClassifier:
         self.columns = ['Network', 'Algorithm', 'Accuracy', 'Precision', 'Recall', 'F1-score', 'Kappa Score', 'Log Loss', 'Cross Val Score']
         self.df_results = pd.DataFrame(columns=self.columns)
         self.full_dir_path = os.path.dirname(os.path.realpath(__file__))
-        self.features_path = fr'{self.full_dir_path}\features' 
-        
+        self.features_path = fr'{self.full_dir_path}\features'
+        os.makedirs(fr'{self.full_dir_path}\learning_curves', exist_ok=True)
+        os.makedirs(fr'{self.full_dir_path}\confusion_matrix', exist_ok=True)
+        os.makedirs(fr'{self.full_dir_path}\results', exist_ok=True)
 
+        
     def load_data(self, csv_file_path):
         self.data = pd.read_csv(csv_file_path)
         # Replace special characters with underscore
