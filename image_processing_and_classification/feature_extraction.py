@@ -28,6 +28,7 @@ class FeatureExtractor:
         self.count_img = 1
         self.full_dir_path = os.path.dirname(os.path.realpath(__file__))
         self.features_path = fr'{self.full_dir_path}\features' 
+        os.makedirs(fr'{self.full_dir_path}\features', exist_ok=True)
 
 
     def _init_model(self, model_type):
