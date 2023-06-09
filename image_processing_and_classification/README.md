@@ -50,9 +50,19 @@ To run the projects in this repository, follow these steps:
 
 2. Update the file paths and configurations in the code as per your system and project setup.
 
-3. Execute the code or run the notebooks to perform feature extraction, classification, and analysis.
+3. To use the Extractor, you have to create a directory named "images" with the images you want to extract and separate then in subdirs with their class names. For example, if you have images from animals, your directory may be like this:
+
+ Main Directory
+ - feature_classifier.py
+ - feature_extraction.py
+ - images
+   - dog
+   - cat
+   - duck
+
+4. Execute the code or run the notebooks to perform feature extraction, classification, and analysis.
   
-4. You have to first extract the features using the FeatureExtractor class file and after this use the FeatureClassifier class to train the models.
+5. You have to first extract the features using the FeatureExtractor class file and after this use the FeatureClassifier class to train the models.
 
 ## Results and Evaluation
 

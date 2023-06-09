@@ -42,10 +42,18 @@ class FeatureClassifier:
         self.columns = ['Network', 'Algorithm', 'Accuracy', 'Precision', 'Recall', 'F1-score', 'Kappa Score', 'Log Loss', 'Cross Val Score']
         self.df_results = pd.DataFrame(columns=self.columns)
         self.full_dir_path = os.path.dirname(os.path.realpath(__file__))
+<<<<<<< HEAD
         self.features_path = fr'{self.full_dir_path}\features'
         os.makedirs(fr'{self.full_dir_path}\learning_curves', exist_ok=True)
         os.makedirs(fr'{self.full_dir_path}\confusion_matrix', exist_ok=True)
         os.makedirs(fr'{self.full_dir_path}\results', exist_ok=True)
+=======
+        self.features_path = fr'{self.full_dir_path}\features' 
+        os.makedirs(fr'{self.full_dir_path}\learning_curves', exist_ok=True)
+        os.makedirs(fr'{self.full_dir_path}\confusion_matrix', exist_ok=True)
+        os.makedirs(fr'{self.full_dir_path}\results', exist_ok=True)
+        
+>>>>>>> 89dec17ed08c480e25506cc1e8b6022a87662c2f
 
         
     def load_data(self, csv_file_path):
