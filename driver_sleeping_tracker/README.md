@@ -33,3 +33,8 @@ The program activates the system's default camera and begins processing the fram
 A real-time plot of the simulated car speed is displayed. If the system determines that the driver's eyes are closed, the plot will illustrate the car's speed plummeting to zero, symbolizing the vehicle's deceleration.
 
 To terminate the program, simply press 'q' and 1. If doesn't work, press Ctrl C in your Terminal.
+
+![Captura de tela 2023-06-09 194011](https://github.com/pedrocrp/data_projects/assets/83802848/b25d64f9-ddf9-42a7-affa-3f606fb55f90)
+
+![Captura de tela 2023-06-10 011102](https://github.com/pedrocrp/data_projects/assets/83802848/6f0a4bc2-bc92-482e-99ff-29e647776f7c)
+
