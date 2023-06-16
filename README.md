@@ -33,7 +33,7 @@ Feel free to explore the projects and dive into the code to gain insights into m
 ## Contact Information
 If you have any questions, feedback, or collaboration opportunities, please feel free to reach out to me via email or connect with me on LinkedIn. I am open to discussing any exciting data-related or computer vision projects or opportunities.
 
-Thank you for visiting my repository, and I look forward to sharing more projects with you in the future!
+Thank you for visiting my repository, and I look forward to sharing more projects with you in the future!!
 
 
 

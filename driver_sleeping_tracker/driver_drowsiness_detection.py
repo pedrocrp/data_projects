@@ -56,6 +56,7 @@ class SpeedSimulation:
         self.time.append(self.time[-1] + 0.5)  
         return new_speed
 
+
 # Class to detect the face and calculate EAR
 class FaceDetector:
     def __init__(self):
