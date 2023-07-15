@@ -1,4 +1,4 @@
-# Data Science, Data Engineering, Computer Vision Projects and more.
+# Data Science,Computer Vision, Machine Learning Projects and more.
 Welcome to my projects repository! This repository showcases my expertise in handling and analyzing large datasets, building data pipelines, applying advanced statistical and machine learning techniques, computer vision and other fields. The projects cover a wide range of domains, including finance, e-commerce, healthcare, and computer vision applications.
 
 ## Data Engineering and Data Science Projects
